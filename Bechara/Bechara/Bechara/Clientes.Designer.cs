@@ -136,7 +136,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(106, 21);
+            this.textBox1.Location = new System.Drawing.Point(115, 27);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(156, 20);
             this.textBox1.TabIndex = 4;
@@ -151,7 +151,7 @@
             "Apellido",
             "DNI",
             "Direccion"});
-            this.comboBox1.Location = new System.Drawing.Point(405, 28);
+            this.comboBox1.Location = new System.Drawing.Point(365, 28);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(161, 21);
             this.comboBox1.TabIndex = 1;
