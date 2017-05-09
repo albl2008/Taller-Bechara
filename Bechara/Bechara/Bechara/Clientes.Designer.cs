@@ -151,7 +151,7 @@
             "Apellido",
             "DNI",
             "Direccion"});
-            this.comboBox1.Location = new System.Drawing.Point(359, 28);
+            this.comboBox1.Location = new System.Drawing.Point(405, 28);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(161, 21);
             this.comboBox1.TabIndex = 1;
