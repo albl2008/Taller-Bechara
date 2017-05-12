@@ -95,7 +95,7 @@
             this.groupBox1.Size = new System.Drawing.Size(572, 279);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Clinetes";
+            this.groupBox1.Text = "Clientes";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // listBox1
@@ -151,7 +151,7 @@
             "Apellido",
             "DNI",
             "Direccion"});
-            this.comboBox1.Location = new System.Drawing.Point(365, 28);
+            this.comboBox1.Location = new System.Drawing.Point(386, 28);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(161, 21);
             this.comboBox1.TabIndex = 1;
@@ -190,6 +190,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Clientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

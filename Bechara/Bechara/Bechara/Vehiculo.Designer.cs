@@ -139,6 +139,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Name = "Vehiculo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vehiculo";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

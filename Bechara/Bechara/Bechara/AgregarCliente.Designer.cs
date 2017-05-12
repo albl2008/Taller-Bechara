@@ -34,11 +34,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -108,26 +108,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nuevo Cliente";
             // 
-            // textBox1
+            // textBox5
             // 
-            this.textBox1.Location = new System.Drawing.Point(135, 24);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(118, 20);
-            this.textBox1.TabIndex = 5;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(135, 99);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(118, 20);
-            this.textBox2.TabIndex = 6;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(135, 139);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(118, 20);
-            this.textBox3.TabIndex = 7;
+            this.textBox5.Location = new System.Drawing.Point(135, 60);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(118, 20);
+            this.textBox5.TabIndex = 9;
             // 
             // textBox4
             // 
@@ -136,12 +122,26 @@
             this.textBox4.Size = new System.Drawing.Size(118, 20);
             this.textBox4.TabIndex = 8;
             // 
-            // textBox5
+            // textBox3
             // 
-            this.textBox5.Location = new System.Drawing.Point(135, 60);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(118, 20);
-            this.textBox5.TabIndex = 9;
+            this.textBox3.Location = new System.Drawing.Point(135, 139);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(118, 20);
+            this.textBox3.TabIndex = 7;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(135, 99);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(118, 20);
+            this.textBox2.TabIndex = 6;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(135, 24);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(118, 20);
+            this.textBox1.TabIndex = 5;
             // 
             // button1
             // 
@@ -170,6 +170,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Name = "AgregarCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgregarCliente";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

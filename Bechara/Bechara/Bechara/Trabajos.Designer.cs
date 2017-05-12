@@ -138,6 +138,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Name = "Trabajos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trabajos";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

@@ -78,6 +78,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "AgregarTipoTrabajo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgregarTipoTrabajo";
             this.Load += new System.EventHandler(this.AgregarTipoTrabajo_Load);
             this.ResumeLayout(false);
