@@ -51,5 +51,11 @@ namespace Bechara
         {
 
         }
+
+        private void turnosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Turnos frm1 = new Turnos();
+            frm1.Show();
+        }
     }
 }
