@@ -85,41 +85,44 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(496, 363);
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button3.Location = new System.Drawing.Point(503, 403);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 26);
+            this.button3.Size = new System.Drawing.Size(75, 32);
             this.button3.TabIndex = 11;
             this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(395, 363);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button2.Location = new System.Drawing.Point(402, 403);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 26);
+            this.button2.Size = new System.Drawing.Size(75, 32);
             this.button2.TabIndex = 10;
             this.button2.Text = "Modificar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(296, 363);
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button1.Location = new System.Drawing.Point(303, 403);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 26);
+            this.button1.Size = new System.Drawing.Size(75, 32);
             this.button1.TabIndex = 8;
             this.button1.Text = "Agregar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.listBox1);
-            this.groupBox1.Location = new System.Drawing.Point(19, 66);
+            this.groupBox1.Location = new System.Drawing.Point(22, 102);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(586, 276);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Clinetes";
+            this.groupBox1.Text = "Clientes";
             // 
             // listBox1
             // 
@@ -136,7 +139,7 @@
             this.comboBox2.Items.AddRange(new object[] {
             "Nombre",
             "Categoria"});
-            this.comboBox2.Location = new System.Drawing.Point(373, 32);
+            this.comboBox2.Location = new System.Drawing.Point(321, 46);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(161, 21);
             this.comboBox2.TabIndex = 15;
@@ -144,7 +147,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(317, 35);
+            this.label3.Location = new System.Drawing.Point(265, 49);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 18;
@@ -153,7 +156,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(83, 32);
+            this.label4.Location = new System.Drawing.Point(31, 46);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 17;
@@ -161,7 +164,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(132, 32);
+            this.textBox2.Location = new System.Drawing.Point(80, 46);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(156, 20);
             this.textBox2.TabIndex = 16;
@@ -170,7 +173,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(628, 425);
+            this.ClientSize = new System.Drawing.Size(660, 481);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
